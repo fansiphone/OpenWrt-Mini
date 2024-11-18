@@ -12,5 +12,5 @@ sed -i '$a\src-git openclash https://github.com/vernesong/OpenClash' ./feeds.con
 echo "src-git passwall https://github.com/xiaorouji/openwrt-passwall.git;main" >> "feeds.conf.default" "src-git passwall https://github.com/xiaorouji/openwrt-passwall.git;main" >> "feeds.conf.default"
 echo "src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages.git;main" >> "feeds.conf.default" “src-git passwall_packages https://github.com/xiaorouji/ openwrt-passwall-packages.git;main” >> “feeds.conf.default”
 
-# 2-添加 docker 插件
+# 4-添加 docker 插件
 sed -i '$a\src-git openclash https://get.docker.com' ./feeds.conf.default-i '$a\src-git openclash https://get.docker.com' ./feeds.conf.default
